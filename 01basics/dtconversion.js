@@ -1,10 +1,10 @@
-// Primitive datatypes
+// Primitive datatypes : Stack Memory
 
 // 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
 // Non Primitive (Reference)  
 
-// Array, Objects, Functions
+// Array, Objects, Functions : Heap Memory
 
 // Conversion of numbber types into others
 
