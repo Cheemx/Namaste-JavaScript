@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Jai Shree Ram</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    let inter
+    const date = ()=>{
+        console.log("Jai Shree Ram",Date.now());
+    }
+    document.querySelector("#start").addEventListener('click',()=>{
+        inter = setInterval(date, 1000)
+        console.log("Start");
+    })
+    document.querySelector('#stop').addEventListener('click',()=>{
+        clearInterval(inter)
+        console.log("Stop");
+    })
+</script>
+</html>
